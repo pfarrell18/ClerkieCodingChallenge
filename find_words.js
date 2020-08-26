@@ -93,7 +93,7 @@ function checkDirection(row, column, grid, dictionary, offset_array) {
 }
 
 //assert equal and test cases 
-//* note: Wasn't sure best practice for comparing tests (JSON.stringify didn't work) so opted to convert retrun set to array  
+//* note: Wasn't sure best practice for comparing sets (JSON.stringify didn't work) so opted to convert return set to array  
 
 function assertArrayEqual(actual, expected, testName) {
 	if (JSON.stringify(actual.sort()) === JSON.stringify(expected.sort())) {
